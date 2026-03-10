@@ -38,10 +38,7 @@ export default function NewClawPage() {
 
   const MODELS = [
     { value: "gpt-4o", label: "GPT-4o" },
-    { value: "gpt-4-turbo", label: "GPT-4 Turbo" },
-    { value: "gpt-3.5-turbo", label: "GPT-3.5 Turbo" },
-    { value: "claude-3-5-sonnet-20241022", label: "Claude 3.5 Sonnet" },
-    { value: "claude-3-haiku-20240307", label: "Claude 3 Haiku" },
+    { value: "anthropic/claude-sonnet-4-6", label: "Claude 4.6 Sonnet" }
   ];
 
   return (
